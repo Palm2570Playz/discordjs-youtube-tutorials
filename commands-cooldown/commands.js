@@ -48,7 +48,7 @@ var handler = function(message, command) {
         else if(command === 'queue') {
             message.channel.send("queue Command.");
             commandCooldown.get(command).set(message.author.id, new Date());
-            delay();
+            delay();a
         }
     }
     console.log(commandCooldown)
